@@ -31,4 +31,8 @@ public class ItemService {
     public void delete(long id){
         itemDAO.delete(id);
     }
+
+    public Item findById(long id){
+        return itemDAO.findById(id);
+    }
 }
